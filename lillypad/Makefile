@@ -47,11 +47,11 @@
 #
 # $Id$
 
-PORT = /dev/tty.usbserial*
+PORT = /dev/ttyUSB0
 TARGET = main
-ARDUINO = /usr/share/arduino/hardware/arduino/cores/arduino/
-SRC = $(ARDUINO)/pins_arduino.c $(ARDUINO)/wiring.c $(ARDUINO)/WInterrupts.c
-CXXSRC = $(TARGET).cpp $(ARDUINO)/HardwareSerial.cpp $(ARDUINO)/WRandom.cpp
+ARDUINO = ./arduino
+SRC = $(ARDUINO)/pins_arduino.c $(ARDUINO)/wiring.c $(ARDUINO)/WInterrupts.c $(ARDUINO)/wiring_analog.c
+CXXSRC = $(TARGET).cpp $(ARDUINO)/HardwareSerial.cpp 
 MCU = atmega8
 F_CPU = 16000000
 FORMAT = ihex
