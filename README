@@ -1,3 +1,1 @@
-The costume code is broken down into two parts, one part runs on the EL wire controller and the other part runs on the lilly pad controller. The EL wire controller defaults to a default cycle through all of the wires in equal time. Otherwise it can receive commands from the lillypad.
-
-The lillypad controller reads a bunch of sensors and occasionally sends commands to EL wire controller.
+Everything runs on the elwire board right now. The original plan involved a seperate lillypad board, but it looks to be unecessary.
