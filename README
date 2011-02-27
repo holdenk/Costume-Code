@@ -1,1 +1,3 @@
 Everything runs on the elwire board right now. The original plan involved a seperate lillypad board, but it looks to be unecessary.
+Just open up costume.pde and download it to your board and you should be good to go.
+The arrays at the top of the file define which pins map to what, so you might need to change them depending on how you wired your costume up.
